@@ -1,4 +1,4 @@
-#Program to verify algebraic square formula
+#A program to verify algebraic square formula
 
 def check_square_formula(a, b):
     if (a + b) ** 2 == pow(a, 2) + 2 * a * b + pow(b, 2):
